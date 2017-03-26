@@ -1,0 +1,50 @@
+.container{
+	padding:20px;
+}
+
+.notificationBar{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.notificationBar li {
+	margin-top: 60px; 
+}
+
+.notificationBar li div {
+	margin-left: 50px;
+	margin-top: -30px;
+	border: 1px solid #ddd;
+	padding: 10px;
+	background-color: white;
+}
+.notificationBar li i{
+	width: 30px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	border-radius: 50%: 
+	border: 1px solid #ddd;
+	background-color: white;
+}
+
+.notificationBar li i:after {
+  	content: '';
+	width: 40px;
+	height: 1px;
+	background-color: :#ddd;
+	margin-top: 15px;
+	position: absolute;
+	z-index: -1;
+  }
+.notificationBar:after{
+	content: '';
+	width: 1px;
+	height: 100%;
+	background-color: :#ddd;
+	top: 4px;
+	left: 15px;
+	z-index: -1;
+}
